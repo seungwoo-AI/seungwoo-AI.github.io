@@ -45,8 +45,3 @@
 - **Assumptions (L-smoothness, µ-strong convexity)** are as crucial as implementation details.  
 - Build **intuition first, proofs second, code last**—each layer reinforces the others.  
 - Upcoming deep dives: **convex duality proofs, BFGS derivation, and saddle-escape mechanics in non-convex neural nets.**  
-
----
-
-**License:** CC BY-NC  
-*Generated 29 Apr 2025 — all numerical-optimization explorations with score ≥ 80.*
