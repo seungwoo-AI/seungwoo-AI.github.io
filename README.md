@@ -1,23 +1,26 @@
 # Seungwoo Lee | AI Research Portfolio
 **seungwoo-AI.github.io**
 
-Welcome to my AI research portfolio.  
-I focus on **numerical optimization for deep learning**, **3D object detection (YOLO 3D)**, and **advanced machine learning architectures**.
+Welcome to my AI research portfolio.
 
-This site presents my theoretical studies, project developments, and experimental research toward building robust, scalable AI systems.
+My research focuses on **numerical optimization for deep learning**, **3D object detection (YOLO 3D)**, and **advanced machine learning architectures**.  
+This site documents my journey in building robust, scalable AI systems through both theoretical studies and practical experiments.
 
 ---
 
 ## Sections
 
 - 📖 **Study**  
-  In-depth exploration of theories such as numerical optimization, linear algebra, and stochastic methods.
+  A comprehensive exploration of key theoretical foundations — including numerical optimization, linear algebra, stochastic methods, and related fields — that support modern AI systems.  
+  *(Focus: learning, understanding, and deep critical analysis.)*
 
 - 🔬 **Research**  
-  Experimental designs, analysis, and results, with a focus on 3D object detection models.
+  Ongoing and completed experimental research projects, centered on developing and analyzing models for 3D object detection and other advanced machine learning problems.  
+  *(Focus: designing experiments, analyzing results, advancing AI capabilities.)*
 
 - 🛠️ **Projects**  
-  Implementations and developments of personal and collaborative projects, including extensions of YOLO 3D.
+  Practical implementations and collaborative developments, showcasing real-world applications and system building.  
+  *(Focus: coding, deployment, and engineering outcomes.)*
 
 ---
 
