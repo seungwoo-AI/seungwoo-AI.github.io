@@ -6,7 +6,7 @@ This section organizes both academic coursework and independent theoretical stud
 
 ## Academic Coursework
 
-Materials systematically organized based on university-level lectures and coursework.
+Materials systematically organized and critically analyzed based on university-level lectures and coursework.
 
 ### Numerical Optimization
 - Gradient Descent
