@@ -19,7 +19,7 @@ When completing the study of a subject, follow this process:
 After completing deep discussions and critical thinking in a single conversation thread:
 
 - **Instruction to give ChatGPT:**  
-  > "Based on our entire conversation, generate a `DeepCriticalExploration.md` that summarizes key questions, explorations, mathematical insights, visual intuitions, and final insights. Output the document as raw Markdown syntax without rendering or interpreting it."
+  > "Based on our entire conversation, generate a `DeepCriticalExploration.md` that summarizes key questions, explorations, mathematical insights, visual intuitions, and final insights. Include all the critical and deep questions (rated 80 points or above) that I raised, without omitting any for flow reasons. Output the document as raw Markdown syntax without rendering or interpreting it."
 
 This will create a high-quality critical exploration document reflecting your thinking process.
 
