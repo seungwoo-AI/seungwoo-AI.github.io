@@ -3,7 +3,8 @@
 
 Welcome to my AI research portfolio.
 
-My research focuses on **numerical optimization for deep learning**, **3D object detection (YOLO 3D)**, and **advanced machine learning architectures**.  
+My research focuses on **numerical optimization for deep learning**, **3D object detection (YOLO 3D)**, and **advanced machine learning architectures**.
+
 This site documents my journey in building robust, scalable AI systems through both theoretical studies and practical experiments.
 
 ---
