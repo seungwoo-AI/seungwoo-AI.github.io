@@ -1,41 +1,31 @@
 # Study | Deep Theoretical Understanding
 
-This section organizes both academic coursework and independent theoretical studies that build the foundation for advanced AI research.
+This section organizes two tiers of theoretical development critical for advanced AI research:
+
+1. **Course Summary:** Systematic organization of core concepts learned through university-level coursework.
+2. **Deep Critical Exploration:** Personal reflections, questions, and independent studies developed through critical analysis and further exploration.
 
 ---
 
-## Academic Coursework
+## Course Summary
 
-Materials systematically organized and critically analyzed based on university-level lectures and coursework.
+Key theoretical concepts and methods systematically studied through formal academic lectures and materials.  
+(Subjects such as Numerical Optimization, Linear Algebra, Stochastic Methods, Data Science, and others.)
 
-### Numerical Optimization
-- Gradient Descent
-- Newton's Method
-- Stochastic Gradient Descent (SGD)
-
-### Linear Algebra
-- Eigenvalues and Eigenvectors
-- Singular Value Decomposition (SVD)
-- Principal Component Analysis (PCA)
-
-### Stochastic Methods
-- Law of Large Numbers
-- Central Limit Theorem (CLT)
-
-### Data Science
-- Covariance and Interpretation
-- Principal Component Analysis (PCA) in Practice
-- Covariance Matrix and Multivariate Relationships
+*(Individual subject notes and details are organized in their respective subfolders.)*
 
 ---
 
-## Independent Research & Study
+## Deep Critical Exploration
 
-Deep explorations and self-driven studies extending beyond standard coursework.
+Personal investigations and reflections that originated from critical thinking during study, leading to deeper understanding and independent research.
 
-- Extension of YOLO into 3D Space
-- Analysis of Mamba Architecture
-- Investigations into Long-Context LLM Mechanisms
-- Advanced Topics in Numerical Optimization
+- Critical analysis of fundamental structures in vector spaces, linear transformations, and matrix decompositions
+- Exploration of conditions for diagonalizability and their geometric interpretations
+- Independent studies beyond coursework, including 3D YOLO extension, Mamba architecture analysis, and long-context LLM research
 
 ---
+
+# Summary
+
+This dual structure demonstrates both a solid foundation in fundamental theories and the ability to extend knowledge through critical thinking and self-driven research.
