@@ -1,44 +1,35 @@
 # Study | Deep Theoretical Understanding
 
-This section systematically organizes theoretical learning and research exploration essential for advanced AI development, categorized into Independent and School-based studies.
+This section systematically organizes both school-based and independent studies critical for advanced AI research, structured to allow for long-term sustainable growth throughout graduate research.
 
 ---
 
-## Independent Study
+## 1. School Study
 
-Independent initiatives outside formal coursework, including research lab experiences and self-driven studies.
-
-### Lab Experience
-Research activities, experiments, and theoretical studies conducted as an undergraduate research assistant.
-
-*(Individual projects and detailed notes are organized in subfolders.)*
-
-### Personal Study
-Self-initiated studies into advanced topics beyond formal education, covering theoretical exploration and hands-on experiments.
-
-*(Individual topics and case studies are organized separately.)*
-
----
-
-## School Study
-
-Academic studies completed through formal university courses, with critical reflections where applicable.
+Studies based on formal academic coursework and structured curriculum.
 
 ### Course Summary
-Systematic organization of key theoretical concepts and methods learned through coursework.
+Comprehensive organization of theoretical concepts and methodologies learned through university-level coursework.
 
 *(Subjects such as Numerical Optimization, Linear Algebra, Stochastic Methods, Data Science, and others.)*
 
 ### Deep Critical Exploration
-Reflections, conceptual questions, and deeper structural analysis arising during study.
+In-depth critical reflections developed during study — including personal questions, interpretations, extended discussions, and independent analyses beyond what was directly taught.
 
-- Analysis of vector spaces, basis, span, and dimension
-- Structural understanding of linear transformations and compositions
-- Exploration of isomorphism conditions
-- Investigations into diagonalizability and eigendecomposition
+---
+
+## 2. Independent Study
+
+Self-directed studies conducted outside formal coursework.
+
+### Lab Research
+Documentation of research assistantship (학부연구생) experiences, including deeper understanding of architectures such as YOLO, CNN concepts, and real-world AI engineering practices.
+
+### Personal Study
+Explorations driven by personal curiosity, such as applying AI concepts to cybersecurity, investigating LMM (Large Multimodal Models), and other emerging areas of AI research.
 
 ---
 
 # Summary
 
-This structure captures a comprehensive view of theoretical understanding, critical reflection, and independent research initiative, providing a solid foundation for future AI research activities.
+This structure separates formal coursework mastery from personal exploration and applied research experiences, supporting a sustainable framework for continuous academic and independent research development throughout graduate studies and beyond.
