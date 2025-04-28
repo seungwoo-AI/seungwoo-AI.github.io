@@ -19,7 +19,7 @@ When completing the study of a subject, follow this process:
 After completing deep discussions and critical thinking in a single conversation thread:
 
 - **Instruction to give ChatGPT:**  
-  > "Based on our entire conversation, generate a `DeepCriticalExploration.md` that summarizes key questions, explorations, mathematical insights, visual intuitions, and final insights."
+  > "Based on our entire conversation, generate a `DeepCriticalExploration.md` that summarizes key questions, explorations, mathematical insights, visual intuitions, and final insights. Output the document as raw Markdown syntax without rendering or interpreting it."
 
 This will create a high-quality critical exploration document reflecting your thinking process.
 
@@ -30,7 +30,7 @@ This will create a high-quality critical exploration document reflecting your th
 After separately organizing detailed concept notes:
 
 - **Instruction to give ChatGPT (with the concept structure ready):**  
-  > "Based on this conceptual structure, generate a `CourseSummary.md` that organizes the main topics and concepts clearly and systematically, without deep critical exploration."
+  > "Based on this conceptual structure, generate a `CourseSummary.md` that organizes the main topics and concepts clearly and systematically, without deep critical exploration. Output the document as raw Markdown syntax without rendering or interpreting it."
 
 This will create a clean and efficient course summary focused only on core structures and ideas.
 
