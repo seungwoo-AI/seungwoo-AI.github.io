@@ -45,4 +45,7 @@ This structure maintains clear separation between:
 
 allowing sustainable management of your study records with minimal manual work.
 
+> ⚡ **Note:**  
+> This system is designed not to simplify study efforts, but to deepen and sustain critical exploration over long-term learning.
+
 ---
