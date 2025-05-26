@@ -3,29 +3,29 @@
 
 Welcome to my AI research portfolio.
 
-My research focuses on **numerical optimization for deep learning**, **3D object detection (YOLO 3D)**, and **advanced machine learning architectures**.
+My work centers on **numerical optimization for deep learning**, **3D object detection (YOLO 3D)**, and **advanced neural architectures**. I pursue both theoretical analysis and experimental validation to build robust, efficient, and interpretable AI systems.
 
-This site documents my journey in building robust, scalable AI systems through both theoretical studies and practical experiments.
+This site documents selected studies, research efforts, engineering projects, and peer-reviewed publications.
 
 ---
 
 ## Sections
 
 - 📖 **Study**  
-  A comprehensive exploration of key theoretical foundations — including numerical optimization, linear algebra, stochastic methods, and related fields — that support modern AI systems.  
-  *(Focus: learning, understanding, and deep critical analysis.)*
+  Foundational topics in mathematics and machine learning, including numerical optimization, linear algebra, and stochastic processes. Emphasis is placed on theoretical rigor and conceptual clarity.
 
 - 🔬 **Research**  
-  Ongoing and completed experimental research projects, centered on developing and analyzing models for 3D object detection and other advanced machine learning problems.  
-  *(Focus: designing experiments, analyzing results, advancing AI capabilities.)*
+  Experimental investigations into advanced machine learning systems, with a focus on 3D object detection, temporal modeling, and performance analysis. Includes ablation studies, novel architectures, and evaluation pipelines.
 
 - 🛠️ **Projects**  
-  Practical implementations and collaborative developments, showcasing real-world applications and system building.  
-  *(Focus: coding, deployment, and engineering outcomes.)*
+  Practical implementations and system-level developments involving applied AI. Covers codebases, software modules, and deployment-ready components.
+
+- 📄 **Publications**  
+  Refereed papers published in peer-reviewed conferences and journals in AI and computer vision.
 
 ---
 
 ## License
 
-© 2025 Seungwoo Lee.  
+© 2025 Seungwoo Lee  
 This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
