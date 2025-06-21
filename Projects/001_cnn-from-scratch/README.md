@@ -79,11 +79,17 @@ This work was completed as the **final substitute deliverable** for the Numerica
 
 ---
 
-## 📄 Accessing the Full Report
+## 🔍 Further Reading
 
-Please download the complete PDF for detailed derivations, code listings, experimental plots, and reflections:
+1. **Code Repository** (NumPy-only CNN implementation) →  
+   [https://github.com/seungwoo-AI/cnn-from-scratch
+](https://github.com/seungwoo-AI/cnn-from-scratch)
 
-[Final Project Report (PDF)](./Final Project.pdf)
+2. **Project Portfolio Page** (screenshots & high-level summary) →  
+   [https://github.com/seungwoo-AI/seungwoo-AI.github.io/tree/main/Projects/cnn-from-scratch](https://github.com/seungwoo-AI/seungwoo-AI.github.io/tree/main/Projects/001_cnn-from-scratch)
+
+3. **Full 9-page Project Report (PDF)** (derivations & ablations) →  
+   [https://github.com/seungwoo-AI/seungwoo-AI.github.io/blob/main/Projects/cnn-from-scratch/Final%20Project_2025.pdf](https://github.com/seungwoo-AI/seungwoo-AI.github.io/blob/main/Projects/001_cnn-from-scratch/Final%20Project.pdf)
 
 ---
 
