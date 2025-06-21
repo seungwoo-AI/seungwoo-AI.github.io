@@ -1,46 +1,92 @@
-# CNN-from-Scratch: Final Project Report
+# CNN-from-Scratch  
+**Numerical Optimization (AI Cyber Security) • Final Course Project**
 
-> **Graduate School Portfolio**  
-> A self-implemented Convolutional Neural Network (CNN) from first principles, using only NumPy, for classifying handwritten digits.
+*Graduate School Application Portfolio*
 
----
-
-## 📖 Project Overview
-
-- **Course**: Numerical Optimization (Final Project)  
-- **Objective**:  
-  1. Implement every component of a CNN—convolution, activation, pooling, backpropagation and SGD optimizer—**without** any deep-learning framework.  
-  2. Train and evaluate on a custom **6×6 handwritten digit** dataset (classes “1”, “2”, “3”, 96 samples total).  
-  3. Demonstrate mathematical understanding by deriving backpropagation formulas and proving the equivalence of “Flatten→FC” vs. “2×2-Conv→1×1” layers.  
-  4. Validate portability by transferring the same code to MNIST (achieving ≈90% accuracy).
+**Author**: Seungwoo Lee, Korea University Sejong  
+**Course**: Numerical Optimization (Final replacement project)  
+**Date**: June 2025  
+**Contact**: rainup4632@gmail.com  
 
 ---
 
-## 🚀 Key Results
+## 📘 Project Context
 
-- **100% training accuracy** on the 6×6 digit dataset.  
-- Verified **signal‐preserving Xavier initialization** (𝒩(0, 1/fan_in)) stabilized training.  
-- Proved **“2×2 Conv → 1×1 output”** is mathematically identical to **“Flatten → Fully-Connected”** for small feature maps.  
-- Successfully applied the same pure-NumPy CNN to MNIST, achieving **≈90% test accuracy**.  
+This work was completed as the **final substitute deliverable** for the Numerical Optimization course. Its purpose is to demonstrate—
+
+1. Deep mathematical understanding of gradient-based learning (deriving backpropagation by hand).  
+2. Software craftsmanship by implementing a working CNN **from first principles** (no high-level deep-learning frameworks).  
+3. Experimental rigor through controlled evaluation on both a custom small-scale dataset and the MNIST benchmark.
 
 ---
 
-## 📄 Report PDF
+## 🔬 Objectives
 
-You can download the full project report here (includes theory derivations, code architecture, experiments, graphs and future work):
+- **Implement** every component of a Convolutional Neural Network—  
+  convolutional layers, pooling layers, activation functions (Sigmoid, ReLU, Softmax + cross-entropy), and the SGD optimizer—**using only NumPy**.  
+- **Train and evaluate** on:  
+  1. A custom 6×6 handwritten-digit dataset (classes “1”, “2”, “3”; 96 samples)  
+  2. The standard MNIST dataset (≈ 90 % test accuracy)  
+- **Prove** the mathematical equivalence between:  
+  - “Flatten → Fully Connected” and  
+  - “2×2-Conv → 1×1 output”  
+- **Analyze** convergence behavior under different optimizers and initialization schemes.
+
+---
+
+## 📊 Key Results
+
+- **Custom 6×6 dataset**  
+  – **100 % training accuracy** achieved with NumPy-only CNN + SGD.  
+- **MNIST benchmark**  
+  – **≈ 90 % test accuracy**, confirming portability of the implementation.  
+- **Optimizer comparison**  
+  – SGD vs. Adam vs. RMSprop: Adam converged fastest with lowest variance.  
+- **Xavier initialization**  
+  – Preserves activation variance across layers, preventing vanishing/exploding gradients.  
+- **Layer-design proof**  
+  – Formal derivation showing “2×2-Conv → 1×1” produces identical outputs to “Flatten → FC” for small feature maps.
+
+---
+
+## 🗂 Repository Contents
+
+001_cnn-from-scratch/
+├── Final Project.pdf # Full written report (theory, code architecture, experiments)
+└── README.md # Project summary for portfolio
+
+
+---
+
+## ⚙️ Technical Highlights
+
+- **Layer implementations** (NumPy only):  
+  - **Conv2D**, **MaxPool2D**, **Sigmoid**, **ReLU**, **Softmax + Cross-Entropy**  
+- **Optimizers from scratch**:  
+  - **SGD**, **RMSprop**, **Adam**  
+- **Design proof**:  
+  - Equivalence of “Flatten→FC” and “2×2-Conv→1×1”  
+- **Training protocol**:  
+  - Full-batch training, fixed random seeds, rigorous hyperparameter controls
+
+---
+
+## 🔮 Future Directions
+
+- Add **data augmentation**, **batch normalization**, and **dropout** to guard against overfitting on small datasets.  
+- Scale to larger vision tasks (e.g., CIFAR-10) with performance optimization (Cython/Numba/CuPy).  
+- Explore advanced optimizers (Adagrad, Nesterov Momentum) and regularization techniques.
+
+---
+
+## 📄 Accessing the Full Report
+
+Please download the complete PDF for detailed derivations, code listings, experimental plots, and reflections:
 
 [Final Project Report (PDF)](./Final Project.pdf)
 
 ---
 
-## 🔗 Code Repository
+## 📜 License
 
-The complete implementation is available on GitHub:
-
-> **seungwoo-AI / cnn-from-scratch**  
-> https://github.com/seungwoo-AI/cnn-from-scratch
-
----
-
-## 📂 Repository Structure
-
+All code in the accompanying GitHub repository is released under the **MIT License**.  
