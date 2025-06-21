@@ -1,2 +1,2 @@
-# Linear Algebra  
-This section gathers the investigations carried out in preparation for the linear-algebra **final examination**. It distills the core theoretical results and critical explorations drawn from the formal coursework—covering vector-space foundations, orthogonality structures, eigen-analysis, similarity transformations, and their geometric interpretations.
+# Linear Algebra
+This section compiles the lecture notes, solved examples, and exploratory questions used during the semester-long linear-algebra course, including materials prepared for the final exam. It lists core definitions, essential proofs, and geometric interpretations without embellishment.
