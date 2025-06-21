@@ -1,2 +1,2 @@
 # Linear Algebra
-This section compiles the lecture notes, solved examples, and exploratory questions used during the semester-long linear-algebra course, including materials prepared for the final exam. It lists core definitions, essential proofs, and geometric interpretations without embellishment.
+This section compiles notes, problem solutions, and conceptual summaries from the linear-algebra coursework covered during the semester, including vector spaces, subspaces, rank–nullity, orthogonality, eigenvalues, similarity transforms, and related explorations completed for class assignments and mid-term preparation.
