@@ -14,7 +14,7 @@
 | No | Critical Question (verbatim / paraphrased)                                         | Exploration unlocked                                           | Depth |
 |----|------------------------------------------------------------------------------------|----------------------------------------------------------------|------:|
 | 1 | “What does **arg max** really mean?”                                                | Optimisation notation & Naïve Bayes decision rule clarified    |  80 |
-| 2 | “Why is $A^{\mathsf T}(b\!-Aw)=0$ exactly $\nabla_w\|b\!-Aw\|^{2}=0$?”               | Algebra ↔ geometry duality in least-squares                    |  92 |
+| 2 | “Why is $A^{\mathsf T}(b\!-\!Aw)=0$ exactly $\nabla_w\|b\!-\!Aw\|^{2}=0$?”           | Algebra ↔ geometry duality in least-squares                    |  92 |
 | 3 | “Why is the closed-form inversion slow for big data?”                               | Complexity split $O(Np^{2}) + O(p^{3})$                        |  85 |
 | 4 | “Does Gradient Descent cut cost because of derivatives?”                            | Per-iteration $O(Np)$ vs once-off inversion                    |  85 |
 | 5 | “In multi-class CE, do we literally add $K$ log-terms?”                             | Full categorical cross-entropy derivation                      |  88 |
@@ -23,45 +23,51 @@
 
 ---
 
-## 3 Mathematical Explorations
+## 3 Mathematical Explorations  
 
-### 3.1 Least-Squares Duality
-- **Gradient condition**
+### 3.1 Least-Squares Duality  
+The gradient condition and its geometric meaning:
 
-  $$
-  \nabla_{w}\,\lVert b - Aw\rVert_2^{2}\;=\;-2A^{\mathsf T}(b - Aw)=0.
-  $$
-
-- **Geometric view:** residual $r = b - Aw$ is **orthogonal** to $\text{Col}(A)$.
-
-- **Result:** stationary point $\Leftrightarrow$ orthogonal projection.
-
----
-
-### 3.2 Closed-Form vs Gradient Descent Complexity
-
-| Stage              | Closed-Form | Cost             | GD (per iter.)      | Cost    |
-|--------------------|-------------|------------------|---------------------|---------|
-| Build $X^{\mathsf T}X$ | yes         | $O(Np^{2})$      | —                   | —       |
-| Invert $(X^{\mathsf T}X)$ | yes         | $O(p^{3})$       | —                   | —       |
-| One GD step        | —           | —                | $Xw,\;X^{\mathsf T}r$ | $O(Np)$ |
-| **Overall**        | one expensive shot | — | many cheap steps | scalable |
-
----
-
-### 3.3 Categorical Cross-Entropy
 $$
-J \;=\; -\sum_{i=1}^{N} \sum_{k=1}^{K} y_{ik}\,\ln p_{ik}.
-$$  
-One-hot $y_{ik}$ collapses to a single $-\ln p_{i,k^{\*}}$ term.
+\nabla_{w}\,\lVert b - Aw\rVert_2^2
+\;=\;
+-2\,A^{\mathsf T}\bigl(b - Aw\bigr)
+\;=\; 0 .
+$$
+
+Hence the residual vector \( r = b - Aw \) is **orthogonal** to the column-space of \(A\);  
+the solution is therefore the orthogonal projection of \(b\) onto **Col(A)**.
 
 ---
 
-### 3.4 Naïve Bayes Prediction
+### 3.2 Closed-Form vs Gradient Descent Complexity  
+
+| Stage                         | Closed-Form | Cost              | GD (per iter.)            | Cost    |
+|-------------------------------|-------------|-------------------|---------------------------|---------|
+| Build $X^{\mathsf T}X$        | yes         | $O(Np^{2})$       | —                         | —       |
+| Invert $(X^{\mathsf T}X)$     | yes         | $O(p^{3})$        | —                         | —       |
+| One GD step                   | —           | —                 | $Xw,\;X^{\mathsf T}r$      | $O(Np)$ |
+| **Overall**                   | one expensive shot | — | many cheap steps | scalable |
+
+---
+
+### 3.3 Categorical Cross-Entropy  
+
 $$
-\hat{y} \;=\; \arg\max_{k}\Bigl[\,\ln P(C_k)\;+\;\sum_{j=1}^{d}\ln P(x_j \mid C_k)\Bigr],
+J \;=\; -\sum_{i=1}^{N}\;\sum_{k=1}^{K} y_{ik}\,\ln p_{ik}.
 $$  
-using conditional independence to convert the product into a log-sum for numeric stability.
+
+With one-hot labels $y_{ik}$ the double sum collapses to a single $-\ln p_{i,k^\*}$ term for each sample.
+
+---
+
+### 3.4 Naïve Bayes Prediction  
+
+$$
+\hat{y} \;=\; \arg\max_{k}\Bigl[\ln P(C_k) \;+\; \sum_{j=1}^{d} \ln P\!\bigl(x_j \mid C_k\bigr)\Bigr],
+$$  
+
+using the conditional-independence assumption to convert a product into a log-sum for numerical stability.
 
 ---
 
@@ -78,8 +84,8 @@ using conditional independence to convert the product into a log-sum for numeric
 
 ## 5 Final Insights  
 
-1. **Generative vs Discriminative** — Naïve Bayes learns $P(X\mid C)\,P(C)$ (fast, sparse-friendly); Softmax & SVM learn the boundary or $P(C\mid X)$ directly (higher accuracy when features correlate).  
-2. **Matrix-Inversion Rule** — Large $p$ or ill-conditioned $X^{\mathsf T}X$ ⇒ switch to (mini-batch) GD / stochastic solvers.  
+1. **Generative vs Discriminative** — Naïve Bayes learns $P(X\mid C)\,P(C)$ (fast, sparse-friendly); Softmax & SVM learn the boundary or $P(C\mid X)$ directly (accurate when features correlate).  
+2. **Matrix-Inversion Rule** — Large $p$ or ill-conditioned $X^{\mathsf T}X$ ⇒ use (mini-batch) GD / stochastic solvers.  
 3. **Decision Archetypes** — Distance (k-NN) · Axis-split (Trees / Forests) · Maximum-margin (SVM).  
 4. **Tufte’s Principles in ML Reporting** — Maximise data-ink, minimise lie-factor & junk → trustworthy visualisation.
 
